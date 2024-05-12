@@ -1,0 +1,2751 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "lc2373",
+      "request": "launch",
+      "mainClass": "lc2373",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc3147",
+      "request": "launch",
+      "mainClass": "lc3147",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc3146",
+      "request": "launch",
+      "mainClass": "lc3146",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc786",
+      "request": "launch",
+      "mainClass": "lc786",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc3075",
+      "request": "launch",
+      "mainClass": "lc3075",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc506",
+      "request": "launch",
+      "mainClass": "lc506",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2816",
+      "request": "launch",
+      "mainClass": "lc2816",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2487",
+      "request": "launch",
+      "mainClass": "lc2487",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc334",
+      "request": "launch",
+      "mainClass": "lc334",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1143",
+      "request": "launch",
+      "mainClass": "lc1143",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc694",
+      "request": "launch",
+      "mainClass": "lc694",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc394",
+      "request": "launch",
+      "mainClass": "lc394",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2997",
+      "request": "launch",
+      "mainClass": "lc2997",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1289",
+      "request": "launch",
+      "mainClass": "lc1289",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc684",
+      "request": "launch",
+      "mainClass": "lc684",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc310",
+      "request": "launch",
+      "mainClass": "lc310",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1342",
+      "request": "launch",
+      "mainClass": "lc1342",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc412",
+      "request": "launch",
+      "mainClass": "lc412",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1672",
+      "request": "launch",
+      "mainClass": "lc1672",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1480",
+      "request": "launch",
+      "mainClass": "lc1480",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1971",
+      "request": "launch",
+      "mainClass": "lc1971",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc382",
+      "request": "launch",
+      "mainClass": "lc382",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1992",
+      "request": "launch",
+      "mainClass": "lc1992",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc733",
+      "request": "launch",
+      "mainClass": "lc733",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc3005",
+      "request": "launch",
+      "mainClass": "lc3005",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc988",
+      "request": "launch",
+      "mainClass": "lc988",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc456",
+      "request": "launch",
+      "mainClass": "lc456",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc950",
+      "request": "launch",
+      "mainClass": "lc950",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc51",
+      "request": "launch",
+      "mainClass": "lc51",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2078",
+      "request": "launch",
+      "mainClass": "lc2078",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2864",
+      "request": "launch",
+      "mainClass": "lc2864",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc101",
+      "request": "launch",
+      "mainClass": "lc101",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc236",
+      "request": "launch",
+      "mainClass": "lc236",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1700",
+      "request": "launch",
+      "mainClass": "lc1700",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc678",
+      "request": "launch",
+      "mainClass": "lc678",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc93",
+      "request": "launch",
+      "mainClass": "lc93",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc38",
+      "request": "launch",
+      "mainClass": "lc38",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc42",
+      "request": "launch",
+      "mainClass": "lc42",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1544",
+      "request": "launch",
+      "mainClass": "lc1544",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc494",
+      "request": "launch",
+      "mainClass": "lc494",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc5",
+      "request": "launch",
+      "mainClass": "lc5",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1614",
+      "request": "launch",
+      "mainClass": "lc1614",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc22",
+      "request": "launch",
+      "mainClass": "lc22",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2785",
+      "request": "launch",
+      "mainClass": "lc2785",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1492",
+      "request": "launch",
+      "mainClass": "lc1492",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2523",
+      "request": "launch",
+      "mainClass": "lc2523",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1903",
+      "request": "launch",
+      "mainClass": "lc1903",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1160",
+      "request": "launch",
+      "mainClass": "lc1160",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1662",
+      "request": "launch",
+      "mainClass": "lc1662",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1291",
+      "request": "launch",
+      "mainClass": "lc1291",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc791",
+      "request": "launch",
+      "mainClass": "lc791",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1609",
+      "request": "launch",
+      "mainClass": "lc1609",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc273",
+      "request": "launch",
+      "mainClass": "lc273",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2958",
+      "request": "launch",
+      "mainClass": "lc2958",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2962",
+      "request": "launch",
+      "mainClass": "lc2962",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc713",
+      "request": "launch",
+      "mainClass": "lc713",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc621",
+      "request": "launch",
+      "mainClass": "lc621",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc349",
+      "request": "launch",
+      "mainClass": "lc349",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "piscineC04Ex03",
+      "request": "launch",
+      "mainClass": "piscineC04Ex03",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc997",
+      "request": "launch",
+      "mainClass": "lc997",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc201",
+      "request": "launch",
+      "mainClass": "lc201",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc268",
+      "request": "launch",
+      "mainClass": "lc268",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc231",
+      "request": "launch",
+      "mainClass": "lc231",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1481",
+      "request": "launch",
+      "mainClass": "lc1481",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2971",
+      "request": "launch",
+      "mainClass": "lc2971",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2149",
+      "request": "launch",
+      "mainClass": "lc2149",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2108",
+      "request": "launch",
+      "mainClass": "lc2108",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc387",
+      "request": "launch",
+      "mainClass": "lc387",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc907",
+      "request": "launch",
+      "mainClass": "lc907",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc729",
+      "request": "launch",
+      "mainClass": "lc729",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc931",
+      "request": "launch",
+      "mainClass": "lc931",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2300",
+      "request": "launch",
+      "mainClass": "lc2300",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2336",
+      "request": "launch",
+      "mainClass": "lc2336",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1296",
+      "request": "launch",
+      "mainClass": "lc1296",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc846",
+      "request": "launch",
+      "mainClass": "lc846",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc380",
+      "request": "launch",
+      "mainClass": "lc380",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2225",
+      "request": "launch",
+      "mainClass": "lc2225",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2130",
+      "request": "launch",
+      "mainClass": "lc2130",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1679",
+      "request": "launch",
+      "mainClass": "lc1679",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1448",
+      "request": "launch",
+      "mainClass": "lc1448",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc994",
+      "request": "launch",
+      "mainClass": "lc994",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc143",
+      "request": "launch",
+      "mainClass": "lc143",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1657",
+      "request": "launch",
+      "mainClass": "lc1657",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1347",
+      "request": "launch",
+      "mainClass": "lc1347",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2095",
+      "request": "launch",
+      "mainClass": "lc2095",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc230",
+      "request": "launch",
+      "mainClass": "lc230",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1704",
+      "request": "launch",
+      "mainClass": "lc1704",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1026",
+      "request": "launch",
+      "mainClass": "lc1026",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2385",
+      "request": "launch",
+      "mainClass": "lc2385",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc872",
+      "request": "launch",
+      "mainClass": "lc872",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc938",
+      "request": "launch",
+      "mainClass": "lc938",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1235",
+      "request": "launch",
+      "mainClass": "lc1235",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc567",
+      "request": "launch",
+      "mainClass": "lc567",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc223",
+      "request": "launch",
+      "mainClass": "lc223",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc438",
+      "request": "launch",
+      "mainClass": "lc438",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2870",
+      "request": "launch",
+      "mainClass": "lc2870",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc841",
+      "request": "launch",
+      "mainClass": "lc841",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1897",
+      "request": "launch",
+      "mainClass": "lc1897",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1456",
+      "request": "launch",
+      "mainClass": "lc1456",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2125",
+      "request": "launch",
+      "mainClass": "lc2125",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2610",
+      "request": "launch",
+      "mainClass": "lc2610",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc3",
+      "request": "launch",
+      "mainClass": "lc3",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1624",
+      "request": "launch",
+      "mainClass": "lc1624",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1578",
+      "request": "launch",
+      "mainClass": "lc1578",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc238",
+      "request": "launch",
+      "mainClass": "lc238",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1758",
+      "request": "launch",
+      "mainClass": "lc1758",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1496",
+      "request": "launch",
+      "mainClass": "lc1496",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1422",
+      "request": "launch",
+      "mainClass": "lc1422",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1637",
+      "request": "launch",
+      "mainClass": "lc1637",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1913",
+      "request": "launch",
+      "mainClass": "lc1913",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2706",
+      "request": "launch",
+      "mainClass": "lc2706",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc324",
+      "request": "launch",
+      "mainClass": "lc324",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc557",
+      "request": "launch",
+      "mainClass": "lc557",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc896",
+      "request": "launch",
+      "mainClass": "lc896",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc389",
+      "request": "launch",
+      "mainClass": "lc389",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1337",
+      "request": "launch",
+      "mainClass": "lc1337",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc542",
+      "request": "launch",
+      "mainClass": "lc542",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc24",
+      "request": "launch",
+      "mainClass": "lc24",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc92",
+      "request": "launch",
+      "mainClass": "lc92",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc725",
+      "request": "launch",
+      "mainClass": "lc725",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc138",
+      "request": "launch",
+      "mainClass": "lc138",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2483",
+      "request": "launch",
+      "mainClass": "lc2483",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc403",
+      "request": "launch",
+      "mainClass": "lc403",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc57",
+      "request": "launch",
+      "mainClass": "lc57",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc436",
+      "request": "launch",
+      "mainClass": "lc436",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc646",
+      "request": "launch",
+      "mainClass": "lc646",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc593",
+      "request": "launch",
+      "mainClass": "lc593",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc423",
+      "request": "launch",
+      "mainClass": "lc423",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc307",
+      "request": "launch",
+      "mainClass": "lc307",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc459",
+      "request": "launch",
+      "mainClass": "lc459",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc165",
+      "request": "launch",
+      "mainClass": "lc165",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc221",
+      "request": "launch",
+      "mainClass": "lc221",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc304",
+      "request": "launch",
+      "mainClass": "lc304",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc299",
+      "request": "launch",
+      "mainClass": "lc299",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc131",
+      "request": "launch",
+      "mainClass": "lc131",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc491",
+      "request": "launch",
+      "mainClass": "lc491",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc419",
+      "request": "launch",
+      "mainClass": "lc419",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc289",
+      "request": "launch",
+      "mainClass": "lc289",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc560",
+      "request": "launch",
+      "mainClass": "lc560",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc130",
+      "request": "launch",
+      "mainClass": "lc130",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc79",
+      "request": "launch",
+      "mainClass": "lc79",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc852",
+      "request": "launch",
+      "mainClass": "lc852",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc279",
+      "request": "launch",
+      "mainClass": "lc279",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc226",
+      "request": "launch",
+      "mainClass": "lc226",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1721",
+      "request": "launch",
+      "mainClass": "lc1721",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc50",
+      "request": "launch",
+      "mainClass": "lc50",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc82",
+      "request": "launch",
+      "mainClass": "lc82",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc515",
+      "request": "launch",
+      "mainClass": "lc515",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc98",
+      "request": "launch",
+      "mainClass": "lc98",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc435",
+      "request": "launch",
+      "mainClass": "lc435",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc300",
+      "request": "launch",
+      "mainClass": "lc300",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc445",
+      "request": "launch",
+      "mainClass": "lc445",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1218",
+      "request": "launch",
+      "mainClass": "lc1218",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc210",
+      "request": "launch",
+      "mainClass": "lc210",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc802",
+      "request": "launch",
+      "mainClass": "lc802",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc103",
+      "request": "launch",
+      "mainClass": "lc103",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc6",
+      "request": "launch",
+      "mainClass": "lc6",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2",
+      "request": "launch",
+      "mainClass": "lc2",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc709",
+      "request": "launch",
+      "mainClass": "lc709",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc821",
+      "request": "launch",
+      "mainClass": "lc821",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc415",
+      "request": "launch",
+      "mainClass": "lc415",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc637",
+      "request": "launch",
+      "mainClass": "lc637",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc151",
+      "request": "launch",
+      "mainClass": "lc151",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1539",
+      "request": "launch",
+      "mainClass": "lc1539",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc71",
+      "request": "launch",
+      "mainClass": "lc71",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc207",
+      "request": "launch",
+      "mainClass": "lc207",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc146",
+      "request": "launch",
+      "mainClass": "lc146",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc59",
+      "request": "launch",
+      "mainClass": "lc59",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1051",
+      "request": "launch",
+      "mainClass": "lc1051",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc54",
+      "request": "launch",
+      "mainClass": "lc54",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc48",
+      "request": "launch",
+      "mainClass": "lc48",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc227",
+      "request": "launch",
+      "mainClass": "lc227",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2448",
+      "request": "launch",
+      "mainClass": "lc2448",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2040",
+      "request": "launch",
+      "mainClass": "lc2040",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc257",
+      "request": "launch",
+      "mainClass": "lc257",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc371",
+      "request": "launch",
+      "mainClass": "lc371",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc208",
+      "request": "launch",
+      "mainClass": "lc208",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc609",
+      "request": "launch",
+      "mainClass": "lc609",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "CodilityMaxProfit",
+      "request": "launch",
+      "mainClass": "CodilityMaxProfit",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "CodilityDominator",
+      "request": "launch",
+      "mainClass": "CodilityDominator",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "CodilityNesting",
+      "request": "launch",
+      "mainClass": "CodilityNesting",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "CodilityBrackets",
+      "request": "launch",
+      "mainClass": "CodilityBrackets",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "CodilityMaxCounters",
+      "request": "launch",
+      "mainClass": "CodilityMaxCounters",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "CodilityFrongRiverOne",
+      "request": "launch",
+      "mainClass": "CodilityFrongRiverOne",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "CodilityTapeEquilibrium",
+      "request": "launch",
+      "mainClass": "CodilityTapeEquilibrium",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "CodilityPermMissingElem",
+      "request": "launch",
+      "mainClass": "CodilityPermMissingElem",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "CodilityCyclicRotation",
+      "request": "launch",
+      "mainClass": "CodilityCyclicRotation",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "CodilityOddOccurrencesInArray",
+      "request": "launch",
+      "mainClass": "CodilityOddOccurrencesInArray",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1588",
+      "request": "launch",
+      "mainClass": "lc1588",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc404",
+      "request": "launch",
+      "mainClass": "lc404",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc113",
+      "request": "launch",
+      "mainClass": "lc113",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc129",
+      "request": "launch",
+      "mainClass": "lc129",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc112",
+      "request": "launch",
+      "mainClass": "lc112",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1161",
+      "request": "launch",
+      "mainClass": "lc1161",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc530",
+      "request": "launch",
+      "mainClass": "lc530",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc797",
+      "request": "launch",
+      "mainClass": "lc797",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc766",
+      "request": "launch",
+      "mainClass": "lc766",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Dsta",
+      "request": "launch",
+      "mainClass": "Dsta",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "Dsta2",
+      "request": "launch",
+      "mainClass": "Dsta2",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "Dsta3",
+      "request": "launch",
+      "mainClass": "Dsta3",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codifiy1",
+      "request": "launch",
+      "mainClass": "codifiy1",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codifiy14",
+      "request": "launch",
+      "mainClass": "codifiy14",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify10",
+      "request": "launch",
+      "mainClass": "codify10",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify11",
+      "request": "launch",
+      "mainClass": "codify11",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify12",
+      "request": "launch",
+      "mainClass": "codify12",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify13",
+      "request": "launch",
+      "mainClass": "codify13",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify15",
+      "request": "launch",
+      "mainClass": "codify15",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify2",
+      "request": "launch",
+      "mainClass": "codify2",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify3",
+      "request": "launch",
+      "mainClass": "codify3",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify4",
+      "request": "launch",
+      "mainClass": "codify4",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify5",
+      "request": "launch",
+      "mainClass": "codify5",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify6",
+      "request": "launch",
+      "mainClass": "codify6",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify7",
+      "request": "launch",
+      "mainClass": "codify7",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify8",
+      "request": "launch",
+      "mainClass": "codify8",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "codify9",
+      "request": "launch",
+      "mainClass": "codify9",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "crimson1",
+      "request": "launch",
+      "mainClass": "crimson1",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "crimson2",
+      "request": "launch",
+      "mainClass": "crimson2",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "hackerrank",
+      "request": "launch",
+      "mainClass": "hackerrank",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "QuickSort",
+      "request": "launch",
+      "mainClass": "javaDP.QuickSort",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "allSubArray",
+      "request": "launch",
+      "mainClass": "javaDP.allSubArray",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "javaAllPermutation",
+      "request": "launch",
+      "mainClass": "javaDP.javaAllPermutation",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "javaHowSum",
+      "request": "launch",
+      "mainClass": "javaDP.javaHowSum",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "javaHowSumRecursiveDP",
+      "request": "launch",
+      "mainClass": "javaDP.javaHowSumRecursiveDP",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "javaHowSumRecursiveUniqueDp",
+      "request": "launch",
+      "mainClass": "javaDP.javaHowSumRecursiveUniqueDp",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "javaHowSumReduceDP",
+      "request": "launch",
+      "mainClass": "javaDP.javaHowSumReduceDP",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "javaDiffCombin",
+      "request": "launch",
+      "mainClass": "javaDiffCombin",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1",
+      "request": "launch",
+      "mainClass": "lc1",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc100",
+      "request": "launch",
+      "mainClass": "lc100",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc11",
+      "request": "launch",
+      "mainClass": "lc11",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1137",
+      "request": "launch",
+      "mainClass": "lc1137",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1146",
+      "request": "launch",
+      "mainClass": "lc1146",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc118",
+      "request": "launch",
+      "mainClass": "lc118",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1189",
+      "request": "launch",
+      "mainClass": "lc1189",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc119",
+      "request": "launch",
+      "mainClass": "lc119",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc12",
+      "request": "launch",
+      "mainClass": "lc12",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc120",
+      "request": "launch",
+      "mainClass": "lc120",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1207",
+      "request": "launch",
+      "mainClass": "lc1207",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc121",
+      "request": "launch",
+      "mainClass": "lc121",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc122",
+      "request": "launch",
+      "mainClass": "lc122",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1232",
+      "request": "launch",
+      "mainClass": "lc1232",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc128",
+      "request": "launch",
+      "mainClass": "lc128",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc134",
+      "request": "launch",
+      "mainClass": "lc134",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1346",
+      "request": "launch",
+      "mainClass": "lc1346",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1351",
+      "request": "launch",
+      "mainClass": "lc1351",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc137",
+      "request": "launch",
+      "mainClass": "lc137",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc139",
+      "request": "launch",
+      "mainClass": "lc139",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc141",
+      "request": "launch",
+      "mainClass": "lc141",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1431",
+      "request": "launch",
+      "mainClass": "lc1431",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1491",
+      "request": "launch",
+      "mainClass": "lc1491",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc15",
+      "request": "launch",
+      "mainClass": "lc15",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc150",
+      "request": "launch",
+      "mainClass": "lc150",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1502",
+      "request": "launch",
+      "mainClass": "lc1502",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc152",
+      "request": "launch",
+      "mainClass": "lc152",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc153",
+      "request": "launch",
+      "mainClass": "lc153",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1572",
+      "request": "launch",
+      "mainClass": "lc1572",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1603",
+      "request": "launch",
+      "mainClass": "lc1603",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc162",
+      "request": "launch",
+      "mainClass": "lc162",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc167",
+      "request": "launch",
+      "mainClass": "lc167",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc168",
+      "request": "launch",
+      "mainClass": "lc168",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc169",
+      "request": "launch",
+      "mainClass": "lc169",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc17",
+      "request": "launch",
+      "mainClass": "lc17",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc171",
+      "request": "launch",
+      "mainClass": "lc171",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc172",
+      "request": "launch",
+      "mainClass": "lc172",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1732",
+      "request": "launch",
+      "mainClass": "lc1732",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1748",
+      "request": "launch",
+      "mainClass": "lc1748",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc1768",
+      "request": "launch",
+      "mainClass": "lc1768",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc179",
+      "request": "launch",
+      "mainClass": "lc179",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc189",
+      "request": "launch",
+      "mainClass": "lc189",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc198",
+      "request": "launch",
+      "mainClass": "lc198",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc20",
+      "request": "launch",
+      "mainClass": "lc20",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc200",
+      "request": "launch",
+      "mainClass": "lc200",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc202",
+      "request": "launch",
+      "mainClass": "lc202",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc204",
+      "request": "launch",
+      "mainClass": "lc204",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc206",
+      "request": "launch",
+      "mainClass": "lc206",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc209",
+      "request": "launch",
+      "mainClass": "lc209",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc213",
+      "request": "launch",
+      "mainClass": "lc213",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2140",
+      "request": "launch",
+      "mainClass": "lc2140",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2148",
+      "request": "launch",
+      "mainClass": "lc2148",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc215",
+      "request": "launch",
+      "mainClass": "lc215",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc216",
+      "request": "launch",
+      "mainClass": "lc216",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc217",
+      "request": "launch",
+      "mainClass": "lc217",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc219",
+      "request": "launch",
+      "mainClass": "lc219",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc220",
+      "request": "launch",
+      "mainClass": "lc220",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2215",
+      "request": "launch",
+      "mainClass": "lc2215",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc228",
+      "request": "launch",
+      "mainClass": "lc228",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc229",
+      "request": "launch",
+      "mainClass": "lc229",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2352",
+      "request": "launch",
+      "mainClass": "lc2352",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc239",
+      "request": "launch",
+      "mainClass": "lc239",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2390",
+      "request": "launch",
+      "mainClass": "lc2390",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc240",
+      "request": "launch",
+      "mainClass": "lc240",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2485",
+      "request": "launch",
+      "mainClass": "lc2485",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2529",
+      "request": "launch",
+      "mainClass": "lc2529",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc2540",
+      "request": "launch",
+      "mainClass": "lc2540",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc260",
+      "request": "launch",
+      "mainClass": "lc260",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc27",
+      "request": "launch",
+      "mainClass": "lc27",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc274",
+      "request": "launch",
+      "mainClass": "lc274",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc275",
+      "request": "launch",
+      "mainClass": "lc275",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc278",
+      "request": "launch",
+      "mainClass": "lc278",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc28",
+      "request": "launch",
+      "mainClass": "lc28",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc283",
+      "request": "launch",
+      "mainClass": "lc283",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc287",
+      "request": "launch",
+      "mainClass": "lc287",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc29",
+      "request": "launch",
+      "mainClass": "lc29",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc290",
+      "request": "launch",
+      "mainClass": "lc290",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc292",
+      "request": "launch",
+      "mainClass": "lc292",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc316",
+      "request": "launch",
+      "mainClass": "lc316",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc318",
+      "request": "launch",
+      "mainClass": "lc318",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc319",
+      "request": "launch",
+      "mainClass": "lc319",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc322",
+      "request": "launch",
+      "mainClass": "lc322",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc33",
+      "request": "launch",
+      "mainClass": "lc33",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc34",
+      "request": "launch",
+      "mainClass": "lc34",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc347",
+      "request": "launch",
+      "mainClass": "lc347",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc35",
+      "request": "launch",
+      "mainClass": "lc35",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc350",
+      "request": "launch",
+      "mainClass": "lc350",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc357",
+      "request": "launch",
+      "mainClass": "lc357",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc36",
+      "request": "launch",
+      "mainClass": "lc36",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc365",
+      "request": "launch",
+      "mainClass": "lc365",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc373",
+      "request": "launch",
+      "mainClass": "lc373",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc377",
+      "request": "launch",
+      "mainClass": "lc377",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc39",
+      "request": "launch",
+      "mainClass": "lc39",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc390",
+      "request": "launch",
+      "mainClass": "lc390",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc392",
+      "request": "launch",
+      "mainClass": "lc392",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc396",
+      "request": "launch",
+      "mainClass": "lc396",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc397",
+      "request": "launch",
+      "mainClass": "lc397",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc398",
+      "request": "launch",
+      "mainClass": "lc398",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc40",
+      "request": "launch",
+      "mainClass": "lc40",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc400",
+      "request": "launch",
+      "mainClass": "lc400",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc402",
+      "request": "launch",
+      "mainClass": "lc402",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc409",
+      "request": "launch",
+      "mainClass": "lc409",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc41",
+      "request": "launch",
+      "mainClass": "lc41",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc441",
+      "request": "launch",
+      "mainClass": "lc441",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc442",
+      "request": "launch",
+      "mainClass": "lc442",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc443",
+      "request": "launch",
+      "mainClass": "lc443",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc45",
+      "request": "launch",
+      "mainClass": "lc45",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc451",
+      "request": "launch",
+      "mainClass": "lc451",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc455",
+      "request": "launch",
+      "mainClass": "lc455",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc46",
+      "request": "launch",
+      "mainClass": "lc46",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc463",
+      "request": "launch",
+      "mainClass": "lc463",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc47",
+      "request": "launch",
+      "mainClass": "lc47",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc49",
+      "request": "launch",
+      "mainClass": "lc49",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc496",
+      "request": "launch",
+      "mainClass": "lc496",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc509",
+      "request": "launch",
+      "mainClass": "lc509",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc518",
+      "request": "launch",
+      "mainClass": "lc518",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc523",
+      "request": "launch",
+      "mainClass": "lc523",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc525",
+      "request": "launch",
+      "mainClass": "lc525",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc53",
+      "request": "launch",
+      "mainClass": "lc53",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc540",
+      "request": "launch",
+      "mainClass": "lc540",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc541",
+      "request": "launch",
+      "mainClass": "lc541",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc547",
+      "request": "launch",
+      "mainClass": "lc547",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc55",
+      "request": "launch",
+      "mainClass": "lc55",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc56",
+      "request": "launch",
+      "mainClass": "lc56",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc561",
+      "request": "launch",
+      "mainClass": "lc561",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc575",
+      "request": "launch",
+      "mainClass": "lc575",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc58",
+      "request": "launch",
+      "mainClass": "lc58",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc599",
+      "request": "launch",
+      "mainClass": "lc599",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc62",
+      "request": "launch",
+      "mainClass": "lc62",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc628",
+      "request": "launch",
+      "mainClass": "lc628",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc63",
+      "request": "launch",
+      "mainClass": "lc63",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc64",
+      "request": "launch",
+      "mainClass": "lc64",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc643",
+      "request": "launch",
+      "mainClass": "lc643",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc682",
+      "request": "launch",
+      "mainClass": "lc682",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc695",
+      "request": "launch",
+      "mainClass": "lc695",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc70",
+      "request": "launch",
+      "mainClass": "lc70",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc704",
+      "request": "launch",
+      "mainClass": "lc704",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc722",
+      "request": "launch",
+      "mainClass": "lc722",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc724",
+      "request": "launch",
+      "mainClass": "lc724",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc73",
+      "request": "launch",
+      "mainClass": "lc73",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc735",
+      "request": "launch",
+      "mainClass": "lc735",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc739",
+      "request": "launch",
+      "mainClass": "lc739",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc74",
+      "request": "launch",
+      "mainClass": "lc74",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc744",
+      "request": "launch",
+      "mainClass": "lc744",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc746",
+      "request": "launch",
+      "mainClass": "lc746",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc75",
+      "request": "launch",
+      "mainClass": "lc75",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc77",
+      "request": "launch",
+      "mainClass": "lc77",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc771",
+      "request": "launch",
+      "mainClass": "lc771",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc78",
+      "request": "launch",
+      "mainClass": "lc78",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc796",
+      "request": "launch",
+      "mainClass": "lc796",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc8",
+      "request": "launch",
+      "mainClass": "lc8",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc80",
+      "request": "launch",
+      "mainClass": "lc80",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc819",
+      "request": "launch",
+      "mainClass": "lc819",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc826",
+      "request": "launch",
+      "mainClass": "lc826",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc830",
+      "request": "launch",
+      "mainClass": "lc830",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc844",
+      "request": "launch",
+      "mainClass": "lc844",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc860",
+      "request": "launch",
+      "mainClass": "lc860",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc88",
+      "request": "launch",
+      "mainClass": "lc88",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc881",
+      "request": "launch",
+      "mainClass": "lc881",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc884",
+      "request": "launch",
+      "mainClass": "lc884",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc888",
+      "request": "launch",
+      "mainClass": "lc888",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc9",
+      "request": "launch",
+      "mainClass": "lc9",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc90",
+      "request": "launch",
+      "mainClass": "lc90",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc905",
+      "request": "launch",
+      "mainClass": "lc905",
+      "projectName": "Java_f21d0313"
+    },
+    {
+      "type": "java",
+      "name": "lc933",
+      "request": "launch",
+      "mainClass": "lc933",
+      "projectName": "Java_f21d0313"
+    }
+  ]
+}
