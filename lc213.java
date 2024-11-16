@@ -1,20 +1,22 @@
-public class lc213 {
-  private static int rob(int[] nums) {
-    int n = nums.length;
-    if (n==1) return nums[0];
-    if (n==2) return Math.max(nums[0], nums[1]);
-    if (n==3) return Math.max(nums[0], Math.max(nums[1], nums[2]));
+import java.util.HashMap;
+import java.util.Map;
 
-    int[] ans = new int[n];
-    ans[n-1] = nums[n-1];
-    ans[n-2] = Math.max(nums[n-1], nums[n-2]);
-    for (int i=n-3;i>=0;i--){
-      ans[i] = Math.max(nums[i]+ ans[n-1], nums[n-2]) ;
-      if (i==1) ans[i] = Math.max(ans[i+1], nums[i]+ans[i+2]-nums[n-1]);
-      if (i==0) ans[i] = Math.max(ans[i+1], nums[i]+ans[i+2]-nums[n-1]);
-    }
-    return Math.max(ans[3], Math.max(ans[0],ans[1])) ;
+public class lc213 {
+  private static int dfs(int[] nums, int end, int i, Map<Integer,Integer> memo){
+    if (i >= end) return 0;
+    if (memo.containsKey(i)) return memo.get(i);
+    int res = Math.max(dfs(nums, end, i+1, memo), dfs(nums, end, i+2, memo)+nums[i]);
+    memo.put(i, res);
+    return res;
   }
+
+  private static int rob(int[] nums) {
+    if (nums.length==1) return nums[0];
+    int rob1st = dfs(nums, nums.length-1, 0, new HashMap<>()) ;
+    int rob2nd = dfs(nums, nums.length, 1, new HashMap<>());
+    return Math.max(rob1st, rob2nd);
+    }
+  
   public static void main(String[] args) {
     int[] nums = {1,2,3,1,7,3,5};
     System.out.println( rob(nums));

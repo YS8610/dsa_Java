@@ -32,8 +32,29 @@ class lc318{
     return ans;
   }
 
+  private static int maxProduct1(String[] words){
+    int[] mask = new int[words.length];
+    int ans = 0;
+    for (int i=0, n=words.length;i<n;++i){
+      for (int j=0,m=words[i].length();j<m;j++){
+        mask[i] |= (1<< (words[i].charAt(j) - 'a'));
+      }
+    }
+    int rp = words.length-1;
+    for (int lp = 0, n =words.length;lp<n-1;lp++ ){
+      rp = words.length-1;
+      while (lp <rp){
+        if ((mask[lp] & mask[rp])==0) 
+          ans = Math.max(ans, words[lp].length()*words[rp].length());
+        rp--;
+      }
+    }
+    return ans;
+  }
+
   public static void main(String[] args) {
     String[] words = {"abcw","baz","foo","bar","xtfn","abcdef"};
     System.out.println(maxProduct(words));
+    System.out.println(maxProduct1(words));
   }
 }

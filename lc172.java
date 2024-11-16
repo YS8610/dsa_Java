@@ -1,30 +1,30 @@
-import java.math.BigInteger;
 
 public class lc172 {
   private static int trailingZeroes(int n) {
-    if (n>10000) return 0;
-    String result = new lc172().factorial(n);
-    int resultLen = result.length();
-    int factorialAns = 0;
-    for (int i = resultLen-1; i>=0;i--){
-      if (!result.substring(i, i+1).equals("0")) return factorialAns;
-      factorialAns++;
+    if (n==0) return 0;
+    int ans = 0;
+    int tmp = 0;
+    int[] memo = new int[n+1];
+    for (int i = 0;i<=n;i+=5){
+      if (i==0) continue;
+      tmp = i;
+      while (tmp%10==0 || tmp%5==0){
+        memo[i]++;
+        tmp/=5;
+        if (memo[tmp] !=0){
+          memo[i] += memo[tmp];
+          break;
+        }
+      }
+      ans += memo[i];
     }
-    return factorialAns;
+    return ans;
   }
 
-  private String factorial(int n){
-    BigInteger ans = BigInteger.ONE;
-    for (int i=1; i<=n;i++){
-      ans = ans.multiply( BigInteger.valueOf(i));
-    }
-    return String.valueOf(ans);
-  }
 
   public static void main(String[] args) {
-    int n = 10000;
+    int n = 30;
     System.out.println( trailingZeroes(n) );
-    // System.out.println( factorial(n) );
-
   }
 }
+

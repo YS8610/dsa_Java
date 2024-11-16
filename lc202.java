@@ -1,31 +1,30 @@
-import java.util.HashSet;
-import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 
 public class lc202 {
-  private static boolean isHappy(int n) {
-    if (n==1) return true;
-    if (n < 10) return false;
-    Set<Integer> set = new HashSet<>();
-    String a = String.valueOf(n);
-    int temp = 0;
-    for (int i=0,len=a.length();i<len;i++){
-      temp += (a.charAt(i) - '0') * (a.charAt(i) - '0');
+
+  private static boolean happyis(int n, Map<Integer, Integer> map) {
+    if (map.containsKey(n)) {
+      if (map.get(n) == 1) return true;
+      return false;
     }
-    if (temp == 1) return true;
-    set.add(temp);
-    while (temp != 1){
-      a = String.valueOf(temp);
-      temp = 0;
-      for (int i=0,len=a.length();i<len;i++){
-        temp += (a.charAt(i) - '0') * (a.charAt(i) - '0');
-      }
-      if (set.contains(temp)) return false;
+    int tmp = n;
+    int ans = 0;
+    while (tmp / 10 != 0) {
+      ans += (tmp % 10) * (tmp % 10);
+      tmp /= 10;
     }
-    return true;
+    ans += (tmp % 10) * (tmp % 10);
+    map.put(n, ans);
+    if (ans == 1) return true; else return happyis(ans, map);
   }
 
+  private static boolean isHappy(int n) {
+    return happyis(n, new HashMap<>());
+  }
 
   public static void main(String[] args) {
-    System.out.println( isHappy(19));
+    int n = 19;
+    System.out.println(isHappy(n));
   }
 }

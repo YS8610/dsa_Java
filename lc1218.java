@@ -1,6 +1,33 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class lc1218 {
 
   private static int longestSubsequence(int[] arr, int difference) {
+    int l = arr.length;
+    Map<Integer, Integer> map = new HashMap<>();
+    int[] dp = new int[l];
+    int ans = 1;
+    dp[l - 1] = 1;
+    map.computeIfPresent(arr[l - 1], (k, v) -> v + 1);
+    map.computeIfAbsent(arr[l - 1], k -> 1);
+    for (int i = l - 2; i >= 0; i--) {
+      if (map.containsKey(arr[i] + difference)) {
+        dp[i] += map.get(arr[i] + difference) + 1;
+        if (map.containsKey(arr[i])) map.put(
+          arr[i],
+          Math.max(dp[i], map.get(arr[i]))
+        ); else map.put(arr[i], dp[i]);
+        continue;
+      }
+      dp[i] = 1;
+      map.put(arr[i], 1);
+    }
+    for (int d : dp) ans = Math.max(ans, d);
+    return ans;
+  }
+
+  public int longestSubsequence1(int[] arr, int difference) {
     int n = arr.length;
     int[] memo = new int[n];
     int ans = 1;
@@ -10,14 +37,12 @@ public class lc1218 {
         if (r == c) {
           memo[c] = 1;
           cp = c;
-        }
-        else if (arr[c] - arr[cp] != difference) memo[c] = memo[cp]; 
-        else {
-          memo[c] = memo[cp]+1;
+        } else if (arr[c] - arr[cp] != difference) memo[c] = memo[cp]; else {
+          memo[c] = memo[cp] + 1;
+          ans = Math.max(ans, memo[c]);
           cp = c;
         }
       }
-      ans = Math.max(ans, memo[n-1]);
     }
     return ans;
   }
