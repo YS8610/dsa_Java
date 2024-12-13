@@ -2,48 +2,37 @@ import java.util.List;
 
 public class lc79 {
 
-  private static boolean exist(char[][] board, String word) {
-    int rlen = board.length;
-    int clen = board[0].length;
-    for (int r = 0; r < rlen; r++) {
-      for (int c = 0; c < clen; c++) {
-        if ( dfs(board,word,List.of(r,c),new boolean[rlen][clen]) ) return true;
+  private static boolean dfs(char[][] board, String word, int i, int r, int c){
+    if (i >= word.length()) return true;
+    if (r < 0 || r>=board.length || c < 0 || c >=board[0].length) return false;
+    if (board[r][c] != word.charAt(i)) return false;
+    char tmp = board[r][c];
+    board[r][c] = 0;
+    boolean ans = 
+      dfs(board, word, i+1, r+1, c)||
+      dfs(board, word, i+1, r, c+1)||
+      dfs(board, word, i+1, r-1, c)||
+      dfs(board, word, i+1, r, c-1);
+    board[r][c] = tmp;
+    return ans;
+  }
+  
+  private static boolean exist(char[][] board, String word){
+    boolean ans = false;
+    char[][] copy = new char[board.length][board[0].length];
+    for (int r =0; r<board.length;r++)
+      for (int c =0; c<board[0].length;c++)
+        copy[r][c] = board[r][c];
+
+    for (int r =0; r<board.length;r++){
+      for (int c =0; c<board[0].length;c++){
+        if (dfs(board, word, 0, r, c)) return true;
+        // for (int row =0; row<board.length;row++)
+        //   for (int col =0; col<board[0].length;col++)
+        //     board[row][col] = copy[row][col];
       }
     }
-    return false;
-  }
-
-  private static boolean dfs(
-    char[][] board,
-    String word,
-    List<Integer> pos,
-    boolean[][] visited
-  ) {
-    if (word.isEmpty()) return true;
-    if (
-      pos.get(0) < 0 ||
-      pos.get(1) < 0 ||
-      pos.get(0) >= board.length ||
-      pos.get(1) >= board[0].length
-      ) return false;
-    if (visited[pos.get(0)][pos.get(1)]) return false;
-    char c = word.charAt(0);
-    if (board[pos.get(0)][pos.get(1)] != c) return false;
-    boolean result;
-    visited[pos.get(0)][pos.get(1)] =true;
-    int posR = pos.get(0);
-    int posC = pos.get(1);
-    List<Integer> up = List.of(posR - 1, posC);
-    List<Integer> down = List.of(posR + 1, posC);
-    List<Integer> left = List.of(posR , posC-1);
-    List<Integer> right = List.of(posR , posC+1);
-    String newWord = word.length()>1?word.substring(1):"";
-    result =  dfs(board,newWord,up,visited ) ||
-              dfs(board,newWord,down,visited ) ||
-              dfs(board,newWord,left,visited ) ||
-              dfs(board,newWord,right,visited );
-    visited[pos.get(0)][pos.get(1)] =false;
-    return result;
+    return ans;
   }
 
   public static void main(String[] args) {
