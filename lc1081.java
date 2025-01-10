@@ -2,7 +2,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-public class lc316 {
+public class lc1081 {
   private static String removeDuplicateLetters(String s){
 		int[] map = new int[26];
 		int l = s.length();
