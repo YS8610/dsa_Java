@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class lc684 {
 
-  private static int[] findRedundantConnection(int[][] edges) {
+  private static int[] findRedundantConnection1(int[][] edges) {
     int n = edges.length;
     List<Set<Integer>> map = new ArrayList<>(n);
     int tmp;
@@ -40,9 +40,48 @@ public class lc684 {
     }
     return new int[2];
   }
+  // #dsu
+  private static int[] findRedundantConnection(int[][] edges){
+    int l = edges.length;
+    int[] map = new int[l+1];
+    Arrays.fill(map, -1);
+    for (int[] e :edges){
+      if (find(map,e[0])==find(map,e[1]))
+        return e;
+      union(map, e);
+    }
+    return null;
+  }
+
+  private static void union(int[] map, int[] e){
+    int p0 = find(map, e[0]);
+    int p1 = find(map, e[1]);
+    // cycle detected
+    if (p0 == p1 && p0 >= 0) return;
+    // both are parent
+    if (map[p0] <0 && map[p1] <0){
+      // same rank or p0 higher rank
+      if (map[p0] == map[p1] || map[p0] < map[p1]){
+        map[p0] = map[p0] + map[p1];
+        map[p1] = p0;
+        return;
+      }
+      // p1 higher rank
+      map[p1] = map[p0] + map[p1];
+      map[p0] = p1;
+      return;
+    }
+    map[e[1]] = p0;
+  }
+
+  private static int find(int[] map, int node){
+    if (map[node] < 0) return node;
+    return find(map, map[node]);
+  }
 
   public static void main(String[] args) {
-    int[][] edges = {{1,2},{2,3},{3,4},{1,4},{1,5}};
+    int[][] edges = {{1,5},{2,4},{3,4},{1,3},{3,5}};
+    System.out.println(Arrays.toString(findRedundantConnection1(edges)));
     System.out.println(Arrays.toString(findRedundantConnection(edges)));
   }
 }
