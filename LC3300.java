@@ -1,4 +1,4 @@
-public class LC3300 {
+public class lc3300 {
   
   private static int minElement(int[] nums) {
     int ans = Integer.MAX_VALUE;
