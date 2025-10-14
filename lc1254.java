@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class lc1254 {
   static public int closedIsland(int[][] grid) {
     int lr = grid[0].length;

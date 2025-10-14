@@ -1,46 +1,104 @@
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Map;
 import java.util.Set;
 import java.util.HashSet;
-import java.util.Collections;
+import java.util.Arrays;
+import java.util.HashMap;
 
-class lc164{
-  
-  private static int maximumGap(int[] nums) {
-    int l = nums.length;
-    if (l < 2) return 0;
-    Set<Integer> set = new HashSet<>();
-    for (int n : nums)
+class lc164 {
+
+  static public int maximumGap(int[] nums) {
+    int ans = 0;
+    HashSet<Integer> set = new HashSet<>();
+    int big = nums[0];
+    int small = nums[0];
+    for (int n : nums) {
       set.add(n);
-    int low = Collections.min(set);
-    int high = Collections.max(set);
-    if (set.size() <= 2)
-      return high - low;
-    int gap = (high - low) / (l-1);
-    List<List<Integer>> bucket = new ArrayList<>(l+1);
-    for (int i =0, n=l+1;i<n;i++)
-      bucket.add(new ArrayList<>());
+      big = Math.max(big, n);
+      small = Math.min(small, n);
+    }
+    int l = set.size();
+    if (l == 1)
+      return 0;
+    if (l == 2) {
+      for (int s : set)
+        ans = Math.abs(ans - s);
+      return ans;
+    }
+    int bsize = (big - small) / (l-1);
+    int minbucket = small / bsize;
+    int bigbucket = big / bsize;
+    int[] bmin = new int[bigbucket - minbucket + 1];
+    int[] bmax = new int[bigbucket - minbucket + 1];
     int tmp;
-    for (int s :set){
-      tmp = (s-low)/gap;
-      bucket.get(tmp).add(s);
+    Arrays.fill(bmin, Integer.MAX_VALUE);
+    Arrays.fill(bmax, -1);
+    int norm;
+    for (int s : set) {
+      tmp = s / bsize;
+      norm = tmp - minbucket;
+      bmin[norm] = Math.min(bmin[norm], s);
+      bmax[norm] = Math.max(bmax[norm], s);
     }
-    int[][] map = new int[l+1][2];
-    for (int[] m : map)
-      Arrays.fill(m, -1);
-    for (int i=0, n=l+1;i<n;i++){
-      if (bucket.get(i).isEmpty())
+    int prev = 0;
+    for (int i =0;i<bmin.length;i++){
+      if (bmax[i] == -1)
         continue;
-      map[i][0] = Collections.min(bucket.get(i));
-      map[i][1] = Collections.max(bucket.get(i));
+      ans = Math.max(ans, bmin[i] - bmax[prev]);
+      prev = i;
     }
-    
-    return 0;
+    return ans;
   }
 
-  public static void main(String[] args){
-    int[] nums = {2,4,3,6,9,1};
+  static public int maximumGap1(int[] nums) {
+    int big = nums[0];
+    int small = nums[0];
+    Set<Integer> set = new HashSet<>();
+    Map<Integer, int[]> map = new HashMap<>();
+    int[] tmp;
+    int div;
+    int ans = 0;
+    for (int n : nums) {
+      big = Math.max(big, n);
+      small = Math.min(small, n);
+      set.add(n);
+    }
+    int l = set.size();
+    int bno = l - 1;
+    if (l == 1)
+      return 0;
+    if (l == 2) {
+      for (int s : set)
+        ans = Math.abs(ans - s);
+      return ans;
+    }
+    int bsize = (big - small) / bno;
+    int sbucket = small / bsize;
+    int bbucket = big / bsize;
+    int mp;
+    for (int n : set) {
+      div = n / bsize;
+      if (map.containsKey(div))
+        tmp = map.get(div);
+      else
+        map.put(div, new int[] { big, small });
+      tmp = map.getOrDefault(div, new int[] { big, small });
+      tmp[0] = Math.min(tmp[0], n);
+      tmp[1] = Math.max(tmp[1], n);
+    }
+    while (sbucket < bbucket) {
+      mp = sbucket + 1;
+      while (!map.containsKey(mp) && mp <= bbucket)
+        mp++;
+      if (mp > bbucket)
+        break;
+      ans = Math.max(ans, map.get(mp)[0] - map.get(sbucket)[1]);
+      sbucket = mp;
+    }
+    return ans;
+  }
+
+  public static void main(String[] args) {
+    int[] nums = { 3,6,9,1 };
     System.out.println(maximumGap(nums));
   }
 }

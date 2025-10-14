@@ -1,31 +1,53 @@
 import java.util.HashMap;
 import java.util.Map;
-import java.util.List;
 
 public class lc1396 {
-  Map< String,Map<Integer,Integer> > map;
+  class Event {
+    String stationName;
+    int t;
+
+    public Event(String stationName, int t) {
+      this.stationName = stationName;
+      this.t = t;
+    }
+  }
+
+  Map<Integer, Event> cust;
+  Map<String, int[]> station;
 
   public lc1396() {
-    this.map = new HashMap<>();
+    this.cust = new HashMap<>();
+    this.station = new HashMap<>();
   }
-  
+
   public void checkIn(int id, String stationName, int t) {
-    if (this.map.containsKey(stationName)){
-      Map<Integer,Integer> a = this.map.get(stationName);
-      
-    }
-    else{
-      // this.map.get(stationName).add( List.of(id,t) );
-    }
+    this.cust.put(id, new Event(stationName, t));
   }
-  
+
   public void checkOut(int id, String stationName, int t) {
-    // this.map.get(stationName).add( List.of(id,t) );
+    Event e = this.cust.get(id);
+    String dest = concat(e.stationName, stationName);
+    int[] tmp = this.station.getOrDefault(dest, new int[2]);
+    tmp[0] += t - e.t;
+    tmp[1]++;
+    this.station.put(dest, tmp);
   }
-  
+
   public double getAverageTime(String startStation, String endStation) {
-    // List<List<Integer>> checkin = this.map.get(startStation);
-    // List<List<Integer>> checkout = this.map.get(endStation);
-    return 0d;
+    int[] tmp = this.station.get(concat(startStation, endStation));
+    return tmp[0] / (double) tmp[1];
+  }
+
+  private String concat(String a, String b) {
+    int l = a.length() + 1 + b.length();
+    char[] tmp = new char[l];
+    int i = -1;
+    int j = 0;
+    while (++i < a.length())
+      tmp[i] = a.charAt(i);
+    tmp[++i] = ',';
+    while (++i < l)
+      tmp[i] = b.charAt(j++);
+    return String.valueOf(tmp);
   }
 }

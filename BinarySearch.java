@@ -27,7 +27,7 @@ public class BinarySearch {
     if (k > nums[l - 1])
       return l;
     while (lp < rp) {
-      mp = lp + (rp - lp) / 2;
+      mp = (rp - lp) / 2;
       if (nums[mp] == k)
         rp = mp;
       if (nums[mp] < k)
