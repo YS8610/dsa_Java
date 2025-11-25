@@ -1,10 +1,8 @@
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.swing.text.html.parser.TagElement;
-
 public class lc365 {
-  
+
   private static boolean canMeasureWater(int jug1Capacity, int jug2Capacity, int targetCapacity){
     int bigJug = Math.max(jug2Capacity, jug1Capacity);
     int smallJug = Math.min(jug2Capacity, jug1Capacity);
@@ -18,7 +16,7 @@ public class lc365 {
     if ( smallJug<targetCapacity  ){
       if (smallJug%bigJug == targetCapacity) return true;
       if ( smallJug - smallJug%bigJug == targetCapacity ) return true;
-      return false; 
+      return false;
     }
     // target capacity = small jug
     else if (smallJug == targetCapacity ) return true;

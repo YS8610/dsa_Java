@@ -7,7 +7,7 @@ public class lc437 {
     bfsSum(root.left, targetSum, root.val + sum);
     bfsSum(root.right, targetSum, root.val + sum);
   }
-  
+
   private static void bfs(TreeNode root, int targetSum){
     if (root == null) return;
     bfsSum(root, targetSum, 0);
@@ -15,7 +15,7 @@ public class lc437 {
     bfs(root.right, targetSum);
   }
 
-  private static int pathSum(TreeNode root, int targetSum){
+  public int pathSum(TreeNode root, int targetSum){
     bfs(root,targetSum);
     return ans;
   }

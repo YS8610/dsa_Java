@@ -1,5 +1,5 @@
 public class lc876 {
-  private static ListNode middleNode(ListNode head){
+  public ListNode middleNode(ListNode head){
     int len = 0;
     ListNode cp = head;
     while (cp != null){

@@ -1,49 +1,44 @@
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Set;
 
 public class lc373 {
-  private static List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
-    List<List<Integer>> ans1 = new ArrayList<>();
-    List<List<Integer>> ans2 = new ArrayList<>();
-    int len1 = nums1.length;
-    int len2 = nums2.length;
-    int[][] table = new int[len1][len2];
-    int counter1 = 0;
-    int sum1 = 0;
-    outerloop1:
-    for (int i=0;i<len1;i++){
-      for (int j=0; j<len2;j++){
-        table[i][j] = nums1[i] + nums2[j];
-        ans1.add(new ArrayList<>(Arrays.asList(nums1[i],nums2[j])) );
-        sum1 += table[i][j];
-        counter1++;
-        if (counter1 >=k) break outerloop1;
+  static public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
+    List<List<Integer>> ans = new ArrayList<>(k);
+    PriorityQueue<int[]> pq = new PriorityQueue<>((m1, m2) -> Integer.compare(m1[0], m2[0]));
+    Set<List<Integer>> visited = new HashSet<>();
+    int l1 = nums1.length;
+    int l2 = nums2.length;
+    int[] top;
+    int n1, n2;
+    n1 = nums1[0];
+    n2 = nums2[0];
+    pq.add(new int[] { n1 + n2, 0, 0 });
+    visited.add(List.of(0, 0));
+    while (!pq.isEmpty() && k > 0) {
+      top = pq.poll();
+      n1 = nums1[top[1]];
+      n2 = nums2[top[2]];
+      ans.add(List.of(n1, n2));
+      k--;
+      if (top[1] + 1 < l1 && top[2] < l2 && !visited.contains(List.of(top[1] + 1, top[2]))) {
+        visited.add(List.of(top[1] + 1, top[2]));
+        pq.add(new int[] { nums1[top[1] + 1] + nums2[top[2]], top[1] + 1, top[2] });
+      }
+      if (top[1] < l1 && top[2] + 1 < l2 && !visited.contains(List.of(top[1], top[2] + 1))) {
+        visited.add(List.of(top[1], top[2] + 1));
+        pq.add(new int[] { nums1[top[1]] + nums2[top[2] + 1], top[1], top[2] + 1 });
       }
     }
-    int counter2 = 0;
-    int sum2 = 0;
-    outerloop2:
-    for (int j=0;j<len2;j++){
-      for (int i=0; i<len1;i++){
-        table[i][j] = nums1[i] + nums2[j];
-        ans2.add(new ArrayList<>(Arrays.asList(nums1[i],nums2[j])) );
-        sum2 +=table[i][j];
-        counter2++;
-        if (counter2 >=k) break outerloop2;
-      }
-    }
-    if (sum1>sum2) return ans2;
-    else return ans1;
+    return ans;
   }
 
-
   public static void main(String[] args) {
-    int[] nums1 = {1,2,4,5,6};
-    int[] nums2 = {3,5,7,9};
+    int[] nums1 = { 1, 2, 4, 5, 6 };
+    int[] nums2 = { 3, 5, 7, 9 };
     int k = 3;
-
-    System.out.println( kSmallestPairs(nums1,nums2,k).toString() );
-  
+    System.out.println(kSmallestPairs(nums1, nums2, k).toString());
   }
 }

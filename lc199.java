@@ -5,7 +5,7 @@ import java.util.List;
 
 public class lc199 {
 
-  private static List<Integer> rightSideView(TreeNode root) {
+  public List<Integer> rightSideView(TreeNode root) {
     if (root==null) return new ArrayList<>();
     TreeNode cp = root;
     List<Integer> ans = new ArrayList<>();

@@ -1,6 +1,6 @@
 public class lc237 {
-  
-  private static void deleteNode(ListNode node){
+
+  public void deleteNode(ListNode node){
     ListNode cp = node;
     ListNode pp = null;
     while(cp!=null){

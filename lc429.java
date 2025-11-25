@@ -4,7 +4,7 @@ import java.util.Deque;
 import java.util.List;
 
 public class lc429 {
-  private static List<List<Integer>> levelOrder(Node3 root) {
+  public List<List<Integer>> levelOrder(Node3 root) {
     if (root==null) return new ArrayList<>();
     List<List<Integer>> ans = new ArrayList<>();
     ans.add(List.of(root.val));
@@ -20,7 +20,7 @@ public class lc429 {
           for (Node3 node : cp.children){
             subAns.add(node.val);
             q.add(node);
-          } 
+          }
         }
       }
       if (!subAns.isEmpty()) ans.add(subAns);
