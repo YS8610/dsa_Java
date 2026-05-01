@@ -1,35 +1,24 @@
 public class lc396 {
-  
-  private static int maxRotateFunction(int[] nums) {
-    int n = nums.length;
-    int maxResult=0;
-    // initialize result value
-    for (int i =0;i<n;i++){
-      maxResult += nums[i]*i;
-    }
-    // starting the loop
-    for (int i =1; i<n;i++){
-      int result = 0;
-      int counter =0;
 
-      for (int j = i;j<n;j++){
-        if (counter!=0) result += nums[j]*counter;
-        counter++;
-      }
-      for (int j=0;j<i;j++){
-        if (counter!=0) result += nums[j]*counter;
-        counter++;
-      }
-      // System.out.println(result);
-      maxResult = Math.max(maxResult, result);
+  private static int maxRotateFunction(int[] nums) {
+    int tmp = 0;
+    int ans = 0;
+    int l = nums.length;
+    int sum = 0;
+    for (int i = 0; i < l; i++) {
+      tmp += nums[i] * i;
+      sum += nums[i];
     }
-    return maxResult;
+    ans = tmp;
+    for (int i = l - 1, last = l - 1; i > 0; i--) {
+      tmp = sum - nums[i] + tmp - nums[i] * last;
+      ans = Math.max(ans, tmp);
+    }
+    return ans;
   }
 
-
-
   public static void main(String[] args) {
-    int[] nums = {100};
-    System.out.println( maxRotateFunction(nums) );
+    int[] nums = { 100 };
+    System.out.println(maxRotateFunction(nums));
   }
 }

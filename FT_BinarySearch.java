@@ -1,4 +1,4 @@
-public class BinarySearch {
+public class FT_BinarySearch {
   // exact number
   public static int exactbs(int[] nums, int k) {
     int l = nums.length;

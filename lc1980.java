@@ -1,33 +1,33 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class lc1980 {
   public static String findDifferentBinaryString(String[] nums) {
     int l = nums.length;
-    int[] number = new int[l];
-    for (int i = 0; i < l; i++)
-      number[i] = Integer.parseInt(nums[i], 2);
-    // number[i] = convert(nums[i]);
-    int limit = 1 << l;
-    int ans = -1;
-    out: for (int i = 0; i <= limit; i++) {
-      for (int num : number)
-        if (num == i)
-          continue out;
-      ans = i;
-      break;
+    Set<Integer> set = new HashSet<>();
+    int tmp;
+    for (String num : nums) {
+      tmp = 0;
+      for (int i = 0; i < l; i++) {
+        if (num.charAt(i) == '0')
+          continue;
+        tmp += (1 << (l - i - 1));
+      }
+      set.add(tmp);
     }
-    String result = Integer.toBinaryString(ans);
-    return String.format("%" + l + "s", result).replaceAll(" ", "0");
-  }
-
-  private static int convert(String e) {
-    int l = e.length();
-    int sum = 0;
-    for (int i = l - 1, bit = 1; i >= 0; i--, bit <<= 1)
-      sum += (e.charAt(i) - '0') * bit;
-    return sum;
+    char[] ans = new char[l];
+    for (int i = 0, n = 2 << l; i < n; i++) {
+      if (set.contains(i))
+        continue;
+      for (int j = l - 1, k = 0; j >= 0; j--)
+        ans[k++] = ((i & (1 << j)) == 0 ? '0' : '1');
+      return String.valueOf(ans);
+    }
+    return "";
   }
 
   public static void main(String[] args) {
-    String[] nums = {"01","10"};
+    String[] nums = { "00", "10" };
     System.out.println(findDifferentBinaryString(nums));
   }
 }
